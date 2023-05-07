@@ -1,0 +1,12 @@
+# Sample workflow 
+name: TASK1 WIKIPEDIA
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+jobs:
+  build: 
+      - name: wikipedia
+      - programming language: js 
